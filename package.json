@@ -1,0 +1,22 @@
+{
+  "name": "fbi-task-pack",
+  "version": "0.0.1",
+  "description": "Pack files or folders.",
+  "main": "index.js",
+  "scripts": {
+    "release-patch": "npm version patch && git push && git push --tags",
+    "release-minor": "npm version minor && git push && git push --tags",
+    "release-major": "npm version major && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neikvon/fbi-task-pack.git"
+  },
+  "keywords": [],
+  "author": "neikvon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neikvon/fbi-task-pack/issues"
+  },
+  "homepage": "https://github.com/neikvon/fbi-task-pack#readme"
+}
