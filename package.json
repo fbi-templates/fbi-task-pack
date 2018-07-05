@@ -10,13 +10,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neikvon/fbi-task-pack.git"
+    "url": "git+https://github.com/fbi-templates/fbi-task-pack.git"
   },
   "keywords": [],
   "author": "neikvon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/neikvon/fbi-task-pack/issues"
+    "url": "https://github.com/fbi-templates/fbi-task-pack/issues"
   },
-  "homepage": "https://github.com/neikvon/fbi-task-pack#readme"
+  "homepage": "https://github.com/fbi-templates/fbi-task-pack#readme",
+  "fbi": {
+    "template": {
+      "name": "fbi-task-pack"
+    },
+    "tasks": {
+      "pack": {
+        "alias": "p"
+      }
+    }
+  },
+  "dependencies": {
+    "archiver": "2.1.1"
+  }
 }
