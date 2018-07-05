@@ -1,6 +1,6 @@
 {
   "name": "fbi-task-pack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Pack files or folders.",
   "main": "index.js",
   "scripts": {
