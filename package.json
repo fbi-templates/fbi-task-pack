@@ -3,11 +3,7 @@
   "version": "1.1.0",
   "description": "Pack files or folders.",
   "main": "index.js",
-  "scripts": {
-    "release-patch": "npm version patch && git push && git push --tags",
-    "release-minor": "npm version minor && git push && git push --tags",
-    "release-major": "npm version major && git push && git push --tags"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fbi-templates/fbi-task-pack.git"
