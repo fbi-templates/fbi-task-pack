@@ -64,12 +64,4 @@ $ fbi pack
 
 [MIT](https://opensource.org/licenses/MIT)
 
-## Changelog
-
-- **1.0.1** (2018.07.11)
-
-  - add `output`, `format` options
-  - add `tar` `tar.gz` supports
-
-- **1.0.0** (2018.07.06)
-  - init
+## [Changelog](./CHANGELOG.md)
